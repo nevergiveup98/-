@@ -1,0 +1,64 @@
+#h3_1 {
+    display: inline;
+    padding-left: 150px;
+	}
+
+
+#p_1 {
+	display: inline;
+	font-size: 18px;
+	
+}
+
+a {
+	display: inline;
+	font-size: 18px;
+	
+}
+
+.h3_2 {
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+	padding-left: 150px;
+	
+}
+
+.p_2 {
+	font-size: 18px;
+	line-height: 1px;
+	padding-left: 150px;
+}
+
+h1 {
+	display: block;
+	color: #FFFFFF;
+	margin-bottom: : 300px;
+	font-size: 18px;
+	padding: 18px;
+	background-color: #808080;
+}
+
+.first-part,.second-part {
+	height: 100px;
+}
+
+.third-part,.fouth-part,.fifth-part{
+	height: 100px;
+}
+
+.first,.second,.third,.fouth,.fifth{
+		position: relative;
+		background-color:#D3D3D3;
+		display: inline;
+		padding: 30px 30px 55px 30px;
+		top: 20px;
+
+		
+}
+.line-1,.line-2,.line-3,.line-4,.line-5 {
+	position: relative;
+	bottom: 50px;
+	display: block;
+	margin:10px;
+}

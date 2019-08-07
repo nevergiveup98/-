@@ -1,0 +1,48 @@
+#h3_1 {
+    display: inline;
+    
+	}
+
+#p_1 {
+	display: inline;
+	font-size: 18px;
+	
+}
+
+a {
+	display: inline;
+	font-size: 18px;
+	
+}
+
+.h3_2 {
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+	
+}
+
+.p_2 {
+	font-size: 18px;
+	line-height: 1px;
+	
+}
+
+.top-part {	
+	padding:25px 50px;
+	/*padding-bottom: -9999px;*/
+	background-color: #1E90FF;
+	
+	float: left;
+	color: #FFF;
+	min-height: 1000px;
+}
+
+.right-part {
+	padding: 0 200px;
+
+}
+
+body {
+	overflow: hidden;
+}

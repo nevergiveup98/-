@@ -1,0 +1,24 @@
+#h3_1 {
+    display: inline;
+	}
+
+#p_1 {
+	display: inline;
+	font-size: 18px;
+}
+
+a {
+	display: inline;
+	font-size: 18px;
+}
+
+.h3_2 {
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+}
+
+.p_2 {
+	font-size: 18px;
+	line-height: 1px;
+}
