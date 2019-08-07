@@ -3,11 +3,12 @@
     <head>
 		<meta charset="UTF-8">
 		<title>简历</title>
-		<link href="css/style_3.css" rel=" stylesheet" type="text/css" />
+		<link href="css/style_2.css" rel=" stylesheet" type="text/css" id="css" />
 
     </head>
 
     <body>
+    <button onclick="changeStyle()">变换css样式</button>
     <div class="top-part">
     	<h1>简历</h1>
     </div>
@@ -71,5 +72,19 @@
     </div>
 </div>
     </div>
+     <script type="text/javascript">
+        function changeStyle() {
+            var obj = document.getElementById("css");
+            console.log(document.getElementById("css").getAttribute("href"));
+            if(obj.getAttribute("href")=='css/style_3.css'){
+                obj.setAttribute("href","css/style_2.css");
+            }else if(obj.getAttribute("href")=='css/style_2.css'){
+                obj.setAttribute("href","css/style_1.css");
+            }
+            else{
+                obj.setAttribute("href","css/style_3.css");
+            }
+        }
+    </script>
     </body>
 </html>
