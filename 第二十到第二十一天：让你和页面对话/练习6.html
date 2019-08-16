@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    
+    #img-people {
+        background-image: url("peopleTest.jpg");
+        border: 1px soild black;
+        width: 500px;
+        height: 500px;
+        max-width: 500px;
+        max-height: 500px;
+        background-repeat: repeat-y;
+        margin: 10px auto;
+        background-position: 0 0;
+    }
+    </style>
+</head>
+<body>
+    <div id=img-people>
+
+    </div>
+    <script>
+    var imgPeople = document.getElementById("img-people");
+    var i = 0;
+
+    function changePosition() {
+        i = i - 480;
+        imgPeople.style.backgroundPosition = "0" + i + "px";
+    }
+
+    function star() {
+        setInterval("changePosition()",1000);
+    }
+
+    window.onload = function() {
+        star();
+    }
+    
+    </script>
+</body>
+</html>
